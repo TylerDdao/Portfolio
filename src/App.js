@@ -5,6 +5,7 @@ import ResponsiveDropdown from "./Components/Dropbox"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Techskill from "./Pages/Techskill"
+import Softskill from "./Pages/Softskill";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/about" element={<About />} />
             <Route path="/techskill" element={<Techskill />} />
+            <Route path="/softskill" element={<Softskill />} />
           </Routes>
     </Router>
   );

@@ -81,7 +81,7 @@ function Home() {
       <NavLink to='/about'>
     <div className='grid justify-items-center my-10 hover:bg-gray-800 transition mx-5 py-5 rounded-xl text-black hover:text-white'>
       <div className='rounded-full overflow-hidden w-32 h-32 flex items-center justify-center'>
-        <img src={`${process.env.PUBLIC_URL}/images/education.png`} className='w-16 h-auto'></img>
+        <img src={`${process.env.PUBLIC_URL}/images/aboutme.png`} className='w-16 h-auto'></img>
       </div>
       <div className='text-3xl font-bold mt-2'>About Me</div>
     </div>
