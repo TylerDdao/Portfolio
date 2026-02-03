@@ -17,7 +17,7 @@ function App() {
       <div className="flex flex-col items-center space-y-5">
         <div className="w-[200px] h-[200px] rounded-full overflow-hidden border border-charcoal">
           <img
-            src="/pics/pfp.PNG"
+            src="./pics/pfp.PNG"
           />
         </div>
         <p className="text-center">
@@ -42,69 +42,69 @@ function App() {
           <Marquee speed={90}>
             <div className="mx-24">
               <img
-                src="/icons/c.png"
+                src="./icons/c.png"
                 alt="C"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24"><img
-                src="/icons/cpp.png"
+                src="./icons/cpp.png"
                 alt="C++"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/csharp.png"
+                src="./icons/csharp.png"
                 alt="C#"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/python.png"
+                src="./icons/python.png"
                 alt="Python"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/javascript.png"
+                src="./icons/javascript.png"
                 alt="JavaScript"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/typescript.png"
+                src="./icons/typescript.png"
                 alt="TypeScript"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/java.png"
+                src="./icons/java.png"
                 alt="Java"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/html.png"
+                src="./icons/html.png"
                 alt="HTML"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/css.png"
+                src="./icons/css.png"
                 alt="CSS"
                 className="max-h-10"
               />
             </div>
             <div className="mx-24">
               <img
-                src="/icons/sql.png"
+                src="./icons/sql.png"
                 alt="SQL"
                 className="max-h-10"
               />
@@ -117,14 +117,14 @@ function App() {
           <Marquee className="flex justify-between" speed={20}>
             <div className="mx-40">
               <img
-                src="/icons/windows.png"
+                src="./icons/windows.png"
                 alt="Windows"
                 className="max-h-10"
               />
             </div>
             <div className="mx-40">
               <img
-                src="/icons/linux.png"
+                src="./icons/linux.png"
                 alt="Linux"
                 className="max-h-10"
               />
@@ -137,54 +137,54 @@ function App() {
           <Marquee className="flex justify-between" speed={80}>
             <div className="mx-15">
               <img
-                src="/icons/visual_studio.png"
+                src="./icons/visual_studio.png"
                 alt="Visual Studio"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15">
               <img
-                src="/icons/visual_studio_code.png"
+                src="./icons/visual_studio_code.png"
                 alt="Visual Studio Code"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15"><img
-                src="/icons/eclipse.png"
+                src="./icons/eclipse.png"
                 alt="Eclipse"
                 className="max-h-10"
               /></div>
             <div className="mx-15">
               <img
-                src="/icons/git.png"
+                src="./icons/git.png"
                 alt="Git"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15">
               <img
-                src="/icons/wireshark.png"
+                src="./icons/wireshark.png"
                 alt="Wireshark"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15">
               <img
-                src="/icons/opnsense.png"
+                src="./icons/opnsense.png"
                 alt="OPNsense"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15">
               <img
-                src="/icons/suricata.png"
+                src="./icons/suricata.png"
                 alt="Suricata"
                 className="max-h-10"
               />
             </div>
             <div className="mx-15">
               <img
-                src="/icons/figma.png"
+                src="./icons/figma.png"
                 alt="Figma"
                 className="max-h-10"
               />
@@ -197,28 +197,28 @@ function App() {
           <Marquee className="flex justify-between" speed={40}>
             <div className="mx-32">
               <img
-                src="/icons/mysql.png"
+                src="./icons/mysql.png"
                 alt="MySQL"
                 className="max-h-10"
               />
             </div>
             <div className="mx-32">
               <img
-                src="/icons/postgresql.png"
+                src="./icons/postgresql.png"
                 alt="PostgreSQL"
                 className="max-h-10"
               />
             </div>
             <div className="mx-32">
               <img
-                src="/icons/mariadb.png"
+                src="./icons/mariadb.png"
                 alt="MariaDB"
                 className="max-h-10"
               />
             </div>
             <div className="mx-32">
               <img
-                src="/icons/mongodb.png"
+                src="./icons/mongodb.png"
                 alt="Mongo Database"
                 className="max-h-10"
               />
@@ -231,21 +231,21 @@ function App() {
           <Marquee className="flex justify-between" speed={30}>
             <div className="mx-32">
               <img
-                src="/icons/nextjs.png"
+                src="./icons/nextjs.png"
                 alt="Next.JS"
                 className="max-h-10"
               />
             </div>
             <div className="mx-32">
               <img
-                src="/icons/net.png"
+                src="./icons/net.png"
                 alt=".NET MAUI"
                 className="max-h-10"
               />
             </div>
             <div className="mx-32">
               <img
-                src="/icons/reactjs.png"
+                src="./icons/reactjs.png"
                 alt="React.JS"
                 className="max-h-10"
               />
@@ -335,7 +335,7 @@ function App() {
       </div>
 
       <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 space-x-5 justify-center items-center">
-        <a  href="/docs/Tyler_Resume.pdf"
+        <a  href="./docs/Tyler_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer">
             <div className="border border-charcoal rounded-md p-2 flex justify-center items-center space-x-2 bg-light_gray hover:text-light_gray hover:bg-charcoal transition duration-200 cursor-pointer">
