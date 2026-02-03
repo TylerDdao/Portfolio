@@ -365,7 +365,7 @@ function App() {
       </div>
 
       <div className="flex flex-col justify-center items-center space-y-2">
-        <div className="text-center">Or you can contact me via my email</div>
+        <div className="text-center">You can contact me via my email</div>
         <a  href="mailto:baonamdao05@gmail.com">
           <div className="w-fit border border-charcoal rounded-md p-2 flex items-center space-x-2 bg-light_gray hover:text-light_gray hover:bg-charcoal transition duration-200 cursor-pointer">
             <FaAt className=""/>
