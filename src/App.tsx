@@ -1,12 +1,11 @@
 import Marquee from "react-fast-marquee";
 import TopBar from './components/TopBar';
-import { FaAt, FaFile, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaAt, FaFile, FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
+import FadeContent from './components/FadeContent'
 
 
-function App() {
-  // const [count, setCount] = useState(0)
-  
 
+function App() {  
   return (
     <div className="font-mono flex flex-col items-center space-y-12 text-charcoal">
 
@@ -29,7 +28,7 @@ function App() {
 
       <div className="flex flex-col items-center space-y-5">
         <p className="text-center">
-          I enjoy working across the full stack, from building interactive 
+          I enjoy working across the stack, from building interactive 
           front-end interfaces to designing and implementing reliable back-end 
           systems. I’m particularly interested in developing web-based applications 
           as a full-stack developer. Over the past three years in the program, 
@@ -254,63 +253,151 @@ function App() {
         </div>
 
         <div className="font-bold mt-5">Some of my highlighted projects</div>
-        
-        <a href="https://github.com/TylerDdao/Project5_HR.git">
-          <div className="group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-220">
-            <p className="text-lg font-bold">HR Management System</p>
-            <ul>
-              <li>- Implemented Python back-end server</li>
-              <li>- Designed front-end using React.js</li>
-              <li>- Connected front-end and back-end via RESTful API</li>
-              <li>- Ensured code is always in production-ready stage using CI/CD pipelines</li>
-            </ul>
+        <div>Software Developer</div>
+        <div className="flex flex md:flex-row flex-col space-x-0 md:space-x-5 md:w-200 overflow-x-auto space-y-2 md:space-y-0">
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+            <a href="https://github.com/TylerDdao/Project5_HR.git">
+              <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+                <p className="text-lg font-bold">Web-based Employees Management System</p>
+                <ul>
+                  <li>- Implemented Python back-end server</li>
+                  <li>- Designed front-end using React.js</li>
+                  <li>- Connected front-end and back-end via RESTful API</li>
+                  <li>- Ensured code is always in production-ready stage using CI/CD pipelines</li>
+                </ul>
 
-            <div className="absolute inset-0 bg-charcoal flex items-center justify-center
-                            opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="flex font-lg text-light_gray space-x-2 items-center">
-                <div>Go to Github repository</div>
-                <div><FaGithub/></div>
+                <div className="absolute inset-0 bg-charcoal flex items-center justify-center
+                                opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex font-lg text-light_gray space-x-2 items-center">
+                    <div>Go to Github repository</div>
+                    <div><FaGithub/></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </FadeContent>
+
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+          <a href="https://github.com/TylerDdao/Section2_Group4_ProjectIV.git" target="_blank" rel="noopener noreferrer">
+            <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+              <p className="text-lg font-bold">Online order server-client system</p>
+              <ul>
+                <li>- Structured server-client architecture using Java</li>
+                <li>- Designed front-end with Java Swing framework</li>
+                <li>- Implemented database management with MySQL</li>
+                <li>- Integrated socket programming for server-client communication</li>
+              </ul>
+
+              <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="flex font-lg text-light_gray space-x-2 items-center">
+                  <div>Go to Github repository</div>
+                  <div><FaGithub/></div>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+          </FadeContent>
 
-        <a href="https://github.com/TylerDdao/Section2_Group4_ProjectIV.git">
-          <div className="group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-220">
-            <p className="text-lg font-bold">Leaf Laugh Love</p>
-            <ul>
-              <li>- Structured server-client architecture using Java</li>
-              <li>- Designed front-end with Java Swing framework</li>
-              <li>- Implemented database management with MySQL</li>
-              <li>- Integrated socket programming for server-client communication</li>
-            </ul>
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+          <a href="https://github.com/TylerDdao/DriveTracker_Group17F24.git" target="_blank" rel="noopener noreferrer">
+            <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+              <p className="text-lg font-bold">Drive Tracker</p>
+              <ul>
+                <li>- Implemented cross-platform application using C# .NET MAUI</li>
+                <li>- Integrated API to retrieve road’s speed limits from a provider and compare it with driver’s real-time speed</li>
+                <li>- Utilized Azure for cloud-based data storage</li>
+              </ul>
 
-            <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="flex font-lg text-light_gray space-x-2 items-center">
-                <div>Go to Github repository</div>
-                <div><FaGithub/></div>
+              <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="flex font-lg text-light_gray space-x-2 items-center">
+                  <div>Go to Github repository</div>
+                  <div><FaGithub/></div>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+          </FadeContent>
+        </div>
 
-        <a href="https://github.com/TylerDdao/DriveTracker_Group17F24.git">
-          <div className="group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-220">
-            <p className="text-lg font-bold">Drive Tracker</p>
-            <ul>
-              <li>- Implemented cross-platform application using C# .NET MAUI</li>
-              <li>- Integrated API to retrieve road’s speed limits from a provider and compare it with driver’s real-time speed</li>
-              <li>- Utilized Azure for cloud-based data storage</li>
-            </ul>
+        <div>Software Security / Cybersecurity</div>
+        <div className="flex flex md:flex-row flex-col space-x-0 md:space-x-5 md:w-200 overflow-x-auto space-y-2 md:space-y-0">
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+            <a href="./docs/Tyler_Software_Security_Report.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+                <p className="text-lg font-bold">Software Vulnerability Assessment</p>
+                <ul>
+                  <li>-	Modeled threats using STRIDE/DREAD</li>
+                  <li>-	Performed source code scanning in Linux and Windows using industry-standard tools</li>
+                  <li>-	Conducted static analysis to prevent threats (SQL Injection, Brute-force attacks, XSS attacks, etc.)</li>
+                  <li>-	Developed a highly secured web-based application with input validation, encryption method to prevent injection and man-in-middle threats</li>
+                </ul>
 
-            <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="flex font-lg text-light_gray space-x-2 items-center">
-                <div>Go to Github repository</div>
-                <div><FaGithub/></div>
+                <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex font-lg text-light_gray space-x-2 items-center">
+                    <div>View technical report</div>
+                    <div><FaRegFilePdf/></div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </a>
+            </a>
+          </FadeContent>
+
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+            <a href="./docs/Tyler_Network_Attack_Report.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+                <p className="text-lg font-bold">VPN Assessment</p>
+                <ul>
+                  <li>-	Identify and recreate threats on virtual private network.</li>
+                  <li>- Set up and enforced security measurement on a private LAN using OPNsence VPN server</li>
+                  <li>-	Implemented rule-based IDS with Suricata to monitor the network traffic and alert on suspicious actions</li>
+                </ul>
+
+                <div className="absolute inset-0 bg-charcoal flex items-center justify-center
+                                opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex font-lg text-light_gray space-x-2 items-center">
+                    <div>View technical report</div>
+                    <div><FaRegFilePdf /></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </FadeContent>
+        </div>
+
+        <div>Some of my research</div>
+        <div className="flex flex md:flex-row flex-col space-x-0 md:space-x-5 md:w-200 overflow-x-auto space-y-2 md:space-y-0">
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+            <a href="./docs/Tyler_Network_Security_Research.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="w-100 group relative flex md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+                <div className="text-lg font-bold">Advantages & Disadvantages of QUIC/UDP protocol</div>
+
+                <div className="absolute inset-0 bg-charcoal flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex font-lg text-light_gray space-x-2 items-center">
+                    <div>View research</div>
+                    <div><FaRegFilePdf/></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </FadeContent>
+
+          <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0} delay={200}>
+            <a href="./docs/Tyler_Software_Security_Research.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="w-100 group relative flex flex-col md:space-y-5 p-5 border border-charcoal rounded-md overflow-hidden cursor-pointer md:w-200">
+                <p className="text-lg font-bold">Evolution of Cryptography</p>
+
+                <div className="absolute inset-0 bg-charcoal flex items-center justify-center
+                                opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex font-lg text-light_gray space-x-2 items-center">
+                    <div>View research</div>
+                    <div><FaRegFilePdf /></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </FadeContent>
+        </div>
+
       </div>
 
       <div className="w-5 h-5 bg-charcoal rounded-full mx-auto"></div>
@@ -373,7 +460,6 @@ function App() {
           </div>
         </a>
       </div>
-
     </div>
 
     
